@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users, controllers: { registrations: 'users/registrations' }
+  resources :users do
+    resource :profile 
+  end
   resources :contacts
   get '/test_1' => 'pages#test_2'
   get '/about' => 'pages#about'
