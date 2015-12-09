@@ -42,7 +42,12 @@ gem 'devise', '3.4.1'
 #stripe for payments
 gem 'stripe', '1.16.1'
 
+#User figaro to hide secret keys
 gem 'figaro', '1.0.0'
+
+#Use paperclip for image uploads
+gem 'paperclip', '4.2.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
